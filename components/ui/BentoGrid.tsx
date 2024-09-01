@@ -1,5 +1,4 @@
 'use client'
-
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
@@ -10,7 +9,7 @@ import { cn } from "@/lib/utils";
 
 
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { GlobeDemo } from "./GridGlobe";
+import {GlobeDemo} from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 
@@ -54,8 +53,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["MilvusDB", "OpenCV", "Scikit-Learn"];
-  const rightLists = ["Pytorch", "Tensorflow", "TensorRT"];
+  const leftLists = ["ReactJS", "Express", "Typescript"];
+  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
 
   const [copied, setCopied] = useState(false);
 
@@ -69,7 +68,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "owaisnazir2228@gmail.com";
+    const text = "hsu@jsmastery.pro";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
