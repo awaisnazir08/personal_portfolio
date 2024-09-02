@@ -85,9 +85,8 @@ export const BentoGridItem = ({
         background: "rgb(4,7,29)",
         backgroundColor:
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-          minHeight: id === 1 || id === 2 || id === 3 ? '300px' : 'auto' // adjust the height as needed
+          minHeight: id === 1 || id === 2 || id === 3 ? '290px' : 'auto' // adjust the height as needed
           // height: id === 1 ? '100vh' : id === 2 ? '50vh' : id === 3 ? '50vh' : 'auto'
-
       }}
     >
       {/* add img divs */}
@@ -143,7 +142,7 @@ export const BentoGridItem = ({
 
           {/* Tech stack list div */}
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2 ">
+            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-1 lg:-right-1">
               {/* tech stack lists */}
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 {leftLists.map((item, i) => (
