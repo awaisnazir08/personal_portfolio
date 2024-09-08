@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Researching on Causal Inference in computer vision",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +72,35 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "AI-Driven Semantic Search Platform",
+      des: "An AI-powered platform for efficient image and text similarity search, leveraging CLIP and Milvus for multi-modal semantic search.",
+      img: "/p1.png",
+      iconLists: ["/milvus-seeklogo.svg", "/icons8-chatgpt.svg", "/icons8-python.svg", "/icons8-docker.svg", "/icons8-pytorch.svg"],
+      link: "https://github.com/awaisnazir08/Semantic-Search-using-Vector-Database",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "Tennis Court Analysis for Player and Ball Tracking",
+      des: "A system for detecting and tracking court points, players, and ball movement in tennis videos, measuring player speed, ball speed, and shot count using YOLOv8, ResNet50, and OpenCV.",
+      img: "/tennis_image.png",
+      iconLists: ["/yolo.svg", "/opencv-icon.svg", "/icons8-pytorch.svg", "/icons8-numpy.svg", "/pandas.svg"],
+      link: "https://github.com/awaisnazir08/Tennis-Analysis-System",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "Python Search Engine with Custom Ranking and Fast Query Resolution",
+      des: "A Python-based search engine utilizing 120,000 articles from the Nela-GT-2022 dataset with a custom web ranking algorithm for resolving single and multi-word queries in milliseconds.",
+      img: "/p3.png",
+      iconLists: ["/icons8-flask (1).svg", "/json.svg", "/icons8-python.svg"],
+      link: "https://github.com/awaisnazir08/Data-Structures-and-Algorithms-Project-Search-Engine-",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "Pix2Pix GAN for Building Image Generation and Similarity Search",
+      des: "Implemented a Pix2Pix GAN in PyTorch for generating building images from sketches, integrated with a Flask app for user uploads and embedding similarity search via Milvus.",
+      img: "/p4.png",
+      iconLists: ["/milvus-seeklogo.svg", "/icons8-pytorch.svg", "/icons8-flask (1).svg", "/opencv-icon.svg", "/icons8-docker.svg"],
+      link: "https://github.com/awaisnazir08/Buildings-Design-Generation-and-Search",
     },
   ];
   
@@ -173,32 +173,32 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Machine Learning Research Intern",
+      desc: "Assisted in the development of a web-based semantic search platform and visual recognition application for Rally cars racing.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Computer Vision Intern",
+      desc: "Worked on Squash court ball detection and tracking.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
-    },
+    // {
+    //   id: 3,
+    //   title: "Freelance App Dev Project",
+    //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    //   className: "md:col-span-2", // change to md:col-span-2
+    //   thumbnail: "/exp3.svg",
+    // },
+    // {
+    //   id: 4,
+    //   title: "Lead Frontend Developer",
+    //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    //   className: "md:col-span-2",
+    //   thumbnail: "/exp4.svg",
+    // },
   ];
   
   export const socialMedia = [
